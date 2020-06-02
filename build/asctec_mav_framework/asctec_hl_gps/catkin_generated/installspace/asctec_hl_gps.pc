@@ -1,0 +1,8 @@
+prefix=/home/karlmt/catkin_ws/install
+
+Name: asctec_hl_gps
+Description: Description of asctec_hl_gps
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs asctec_hl_comm message_filters std_srvs

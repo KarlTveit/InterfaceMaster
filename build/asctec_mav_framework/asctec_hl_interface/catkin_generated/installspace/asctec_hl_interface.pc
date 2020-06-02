@@ -1,0 +1,8 @@
+prefix=/home/karlmt/catkin_ws/install
+
+Name: asctec_hl_interface
+Description: Description of asctec_hl_interface
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib asctec_hl_comm diagnostic_updater dynamic_reconfigure geometry_msgs roscpp sensor_fusion_comm sensor_msgs tf

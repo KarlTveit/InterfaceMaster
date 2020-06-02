@@ -1,0 +1,9 @@
+<launch>
+
+<include file="$(find msf_updates)/launch/arucopose_sensor.launch"/>
+
+
+<include file="$(find open_manipulator_controller)/launch/open_manipulator_controller.launch"/>
+
+
+</launch>

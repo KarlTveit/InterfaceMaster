@@ -1,0 +1,63 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~listen_on_tf" : \b [bool] Enables listening on tf transforms for position updates for the state estimation on the HLP. min: False, default: True, max: True
+- \b "~tf_ref_frame_id" : \b [str] tf reference frame. min: , default: world, max: 
+- \b "~tf_tracked_frame_id" : \b [str] tf frame of the helicopter. min: , default: mav, max: 
+- \b "~send" : \b [bool] used to send all parameters at once. min: False, default: False, max: True
+- \b "~omega_0_xy" : \b [double] natural frequency of the position controller's reference model for x and y axis. min: -100.0, default: 2.5, max: 100.0
+- \b "~omega_0_z" : \b [double] natural frequency of the position controller's reference model for the z axis. min: -100.0, default: 8.0, max: 100.0
+- \b "~zeta_xy" : \b [double] damping of the position controller's reference model for x and y axis. min: -100.0, default: 1.0, max: 100.0
+- \b "~zeta_z" : \b [double] damping of the position controller's reference model for the z axis. min: -100.0, default: 1.0, max: 100.0
+- \b "~p1" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p2" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p3" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p4" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p5" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p6" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p7" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p8" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p9" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p10" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p11" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p12" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p13" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p14" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p15" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p16" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p17" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p18" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p19" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p20" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p21" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p22" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p23" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p24" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p25" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p26" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p27" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p28" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p29" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p30" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p31" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p32" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p33" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p34" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p35" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p36" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p37" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p38" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p39" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p40" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p41" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p42" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p43" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p44" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p45" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p46" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p47" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p48" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p49" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+- \b "~p50" : \b [double]   min: -100.0, default: 0.0, max: 100.0
+

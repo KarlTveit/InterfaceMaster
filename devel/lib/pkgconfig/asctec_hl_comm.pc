@@ -1,0 +1,8 @@
+prefix=/home/karlmt/catkin_ws/devel
+
+Name: asctec_hl_comm
+Description: Description of asctec_hl_comm
+Version: 0.1.0
+Cflags: -I/home/karlmt/catkin_ws/devel/include -I/home/karlmt/catkin_ws/src/asctec_mav_framework/asctec_hl_comm/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib_msgs geometry_msgs sensor_msgs

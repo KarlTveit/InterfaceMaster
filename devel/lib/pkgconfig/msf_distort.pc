@@ -1,0 +1,8 @@
+prefix=/home/karlmt/catkin_ws/devel
+
+Name: msf_distort
+Description: Description of msf_distort
+Version: 1.0.1
+Cflags: -I/home/karlmt/catkin_ws/devel/include -I/home/karlmt/catkin_ws/src/ethzasl_msf/msf_core/include -I/home/karlmt/catkin_ws/src/ethzasl_msf/msf_timing/include -I/home/karlmt/catkin_ws/src/image_common/image_transport/include -I/home/karlmt/catkin_ws/src/vision_opencv/image_geometry/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include -I/usr/include/opencv
+Libs: -L${prefix}/lib 
+Requires: msf_core std_msgs visualization_msgs sensor_msgs image_transport image_geometry geometry_msgs dynamic_reconfigure

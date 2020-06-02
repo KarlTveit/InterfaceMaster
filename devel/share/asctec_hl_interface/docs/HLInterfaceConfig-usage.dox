@@ -1,0 +1,28 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="asctec_hl_interface" type="Config">
+  <param name="packet_rate_imu" type="double" value="50.0" />
+  <param name="packet_rate_rc" type="double" value="10.0" />
+  <param name="packet_rate_gps" type="double" value="5.0" />
+  <param name="packet_rate_ssdk_debug" type="double" value="5.0" />
+  <param name="packet_rate_ekf_state" type="double" value="0.0" />
+  <param name="packet_rate_mag" type="double" value="0.0" />
+  <param name="battery_warning" type="double" value="9.8" />
+  <param name="enable_x" type="bool" value="True" />
+  <param name="enable_y" type="bool" value="True" />
+  <param name="enable_z" type="bool" value="True" />
+  <param name="enable_yaw" type="bool" value="True" />
+  <param name="position_control" type="str" value="off" />
+  <param name="state_estimation" type="str" value="off" />
+  <param name="max_velocity_xy" type="double" value="0.5" />
+  <param name="max_velocity_z" type="double" value="0.5" />
+  <param name="max_velocity_yaw" type="double" value="0.1" />
+  <param name="min_pos_x" type="double" value="-1000.0" />
+  <param name="min_pos_y" type="double" value="-1000.0" />
+  <param name="min_pos_z" type="double" value="-1000.0" />
+  <param name="max_pos_x" type="double" value="1000.0" />
+  <param name="max_pos_y" type="double" value="1000.0" />
+  <param name="max_pos_z" type="double" value="1000.0" />
+</node>
+\endverbatim
+
